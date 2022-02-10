@@ -27,9 +27,9 @@ else
 end
 
 if pointScore >= 3 then
-    print("ALL Functions Found! You can use Feather-Admin without any issues.")
+    print("ALL Functions Found! You can use Feather Admin without any issues.")
 else
-    print("Functions Missing! Feather-Admin will not function properly on your Exploit. Total Points: " .. pointScore .. ". Total Required: 3. Missing Functions:\n")
+    print("Functions Missing! Feather Admin will not function properly on your Exploit. Total Points: " .. pointScore .. ". Total Required: 3. Missing Functions:\n")
     for i,v in pairs(missingFunctions) do
         print(v .. "\n")
     end
