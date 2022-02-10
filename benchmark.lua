@@ -18,7 +18,7 @@ else
     table.insert(missingFunctions, "getsynasset / getcustomasset")
     print("getsynasset / getcustomasset : NOT FOUND")
 end
-if isfolder or makefolder or writefile or isfile then
+if isfolder and makefolder and writefile and isfile then
     print("Filesystem API : VALID")
     pointScore = pointScore + 1
 else
